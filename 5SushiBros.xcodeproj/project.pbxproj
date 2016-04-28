@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA0BF88A1CBEA8AD00945C62 /* SushiTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BF8891CBEA8AD00945C62 /* SushiTabBarController.swift */; };
+		FA0BF88C1CBEB0A900945C62 /* VerifyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BF88B1CBEB0A900945C62 /* VerifyOrderViewController.swift */; };
+		FA0BF88E1CBEB34200945C62 /* OrderCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BF88D1CBEB34200945C62 /* OrderCompleteViewController.swift */; };
+		FA0BF8921CBEB6B200945C62 /* SushiMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BF8911CBEB6B200945C62 /* SushiMenu.swift */; };
+		FA0BF8981CBFF71A00945C62 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BF8971CBFF71A00945C62 /* Order.swift */; };
+		FA4CEF071CB32EB000B6C4CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CEF061CB32EB000B6C4CD /* AppDelegate.swift */; };
+		FA4CEF091CB32EB000B6C4CD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CEF081CB32EB000B6C4CD /* MenuViewController.swift */; };
+		FA4CEF0F1CB32EB000B6C4CD /* _SushiBros.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA4CEF0D1CB32EB000B6C4CD /* _SushiBros.xcdatamodeld */; };
+		FA4CEF111CB32EB000B6C4CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA4CEF101CB32EB000B6C4CD /* Assets.xcassets */; };
+		FA4CEF141CB32EB000B6C4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4CEF121CB32EB000B6C4CD /* LaunchScreen.storyboard */; };
+		FA4CEF1F1CB32EB000B6C4CD /* _SushiBrosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CEF1E1CB32EB000B6C4CD /* _SushiBrosTests.swift */; };
+		FA4CEF2A1CB32EB100B6C4CD /* _SushiBrosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CEF291CB32EB100B6C4CD /* _SushiBrosUITests.swift */; };
+		FA4CEF381CB3304700B6C4CD /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4CEF371CB3304700B6C4CD /* MenuItemCell.swift */; };
+		FA80B94D1CC581A800FECFBB /* MenuItemDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80B94C1CC581A800FECFBB /* MenuItemDescriptionCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA4CEF1B1CB32EB000B6C4CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4CEEFB1CB32EAF00B6C4CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4CEF021CB32EAF00B6C4CD;
+			remoteInfo = 5SushiBros;
+		};
+		FA4CEF261CB32EB100B6C4CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA4CEEFB1CB32EAF00B6C4CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA4CEF021CB32EAF00B6C4CD;
+			remoteInfo = 5SushiBros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA0BF8891CBEA8AD00945C62 /* SushiTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SushiTabBarController.swift; sourceTree = "<group>"; };
+		FA0BF88B1CBEB0A900945C62 /* VerifyOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyOrderViewController.swift; sourceTree = "<group>"; };
+		FA0BF88D1CBEB34200945C62 /* OrderCompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderCompleteViewController.swift; sourceTree = "<group>"; };
+		FA0BF8911CBEB6B200945C62 /* SushiMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SushiMenu.swift; sourceTree = "<group>"; };
+		FA0BF8971CBFF71A00945C62 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FA4CEF031CB32EAF00B6C4CD /* 5SushiBros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 5SushiBros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4CEF061CB32EB000B6C4CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA4CEF081CB32EB000B6C4CD /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FA4CEF0E1CB32EB000B6C4CD /* _SushiBros.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _SushiBros.xcdatamodel; sourceTree = "<group>"; };
+		FA4CEF101CB32EB000B6C4CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA4CEF131CB32EB000B6C4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA4CEF151CB32EB000B6C4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4CEF1A1CB32EB000B6C4CD /* 5SushiBrosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 5SushiBrosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4CEF1E1CB32EB000B6C4CD /* _SushiBrosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _SushiBrosTests.swift; sourceTree = "<group>"; };
+		FA4CEF201CB32EB000B6C4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4CEF251CB32EB100B6C4CD /* 5SushiBrosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 5SushiBrosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4CEF291CB32EB100B6C4CD /* _SushiBrosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _SushiBrosUITests.swift; sourceTree = "<group>"; };
+		FA4CEF2B1CB32EB100B6C4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA4CEF371CB3304700B6C4CD /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		FA80B94C1CC581A800FECFBB /* MenuItemDescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemDescriptionCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4CEF001CB32EAF00B6C4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4CEF171CB32EB000B6C4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4CEF221CB32EB000B6C4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA0BF88F1CBEB38000945C62 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FA4CEF081CB32EB000B6C4CD /* MenuViewController.swift */,
+				FA4CEF371CB3304700B6C4CD /* MenuItemCell.swift */,
+				FA80B94C1CC581A800FECFBB /* MenuItemDescriptionCell.swift */,
+				FA0BF8911CBEB6B200945C62 /* SushiMenu.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		FA0BF8901CBEB39000945C62 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BF88B1CBEB0A900945C62 /* VerifyOrderViewController.swift */,
+				FA0BF88D1CBEB34200945C62 /* OrderCompleteViewController.swift */,
+				FA0BF8971CBFF71A00945C62 /* Order.swift */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		FA4CEEFA1CB32EAF00B6C4CD = {
+			isa = PBXGroup;
+			children = (
+				FA4CEF051CB32EB000B6C4CD /* 5SushiBros */,
+				FA4CEF1D1CB32EB000B6C4CD /* 5SushiBrosTests */,
+				FA4CEF281CB32EB100B6C4CD /* 5SushiBrosUITests */,
+				FA4CEF041CB32EAF00B6C4CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4CEF041CB32EAF00B6C4CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4CEF031CB32EAF00B6C4CD /* 5SushiBros.app */,
+				FA4CEF1A1CB32EB000B6C4CD /* 5SushiBrosTests.xctest */,
+				FA4CEF251CB32EB100B6C4CD /* 5SushiBrosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4CEF051CB32EB000B6C4CD /* 5SushiBros */ = {
+			isa = PBXGroup;
+			children = (
+				FA4CEF061CB32EB000B6C4CD /* AppDelegate.swift */,
+				FA0BF8891CBEA8AD00945C62 /* SushiTabBarController.swift */,
+				FA0BF88F1CBEB38000945C62 /* Menu */,
+				FA0BF8901CBEB39000945C62 /* Order */,
+				FA4CEF101CB32EB000B6C4CD /* Assets.xcassets */,
+				FA4CEF121CB32EB000B6C4CD /* LaunchScreen.storyboard */,
+				FA4CEF151CB32EB000B6C4CD /* Info.plist */,
+				FA4CEF0D1CB32EB000B6C4CD /* _SushiBros.xcdatamodeld */,
+			);
+			path = 5SushiBros;
+			sourceTree = "<group>";
+		};
+		FA4CEF1D1CB32EB000B6C4CD /* 5SushiBrosTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4CEF1E1CB32EB000B6C4CD /* _SushiBrosTests.swift */,
+				FA4CEF201CB32EB000B6C4CD /* Info.plist */,
+			);
+			path = 5SushiBrosTests;
+			sourceTree = "<group>";
+		};
+		FA4CEF281CB32EB100B6C4CD /* 5SushiBrosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA4CEF291CB32EB100B6C4CD /* _SushiBrosUITests.swift */,
+				FA4CEF2B1CB32EB100B6C4CD /* Info.plist */,
+			);
+			path = 5SushiBrosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4CEF021CB32EAF00B6C4CD /* 5SushiBros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4CEF2E1CB32EB100B6C4CD /* Build configuration list for PBXNativeTarget "5SushiBros" */;
+			buildPhases = (
+				FA4CEEFF1CB32EAF00B6C4CD /* Sources */,
+				FA4CEF001CB32EAF00B6C4CD /* Frameworks */,
+				FA4CEF011CB32EAF00B6C4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 5SushiBros;
+			productName = 5SushiBros;
+			productReference = FA4CEF031CB32EAF00B6C4CD /* 5SushiBros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA4CEF191CB32EB000B6C4CD /* 5SushiBrosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4CEF311CB32EB100B6C4CD /* Build configuration list for PBXNativeTarget "5SushiBrosTests" */;
+			buildPhases = (
+				FA4CEF161CB32EB000B6C4CD /* Sources */,
+				FA4CEF171CB32EB000B6C4CD /* Frameworks */,
+				FA4CEF181CB32EB000B6C4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4CEF1C1CB32EB000B6C4CD /* PBXTargetDependency */,
+			);
+			name = 5SushiBrosTests;
+			productName = 5SushiBrosTests;
+			productReference = FA4CEF1A1CB32EB000B6C4CD /* 5SushiBrosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA4CEF241CB32EB000B6C4CD /* 5SushiBrosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4CEF341CB32EB100B6C4CD /* Build configuration list for PBXNativeTarget "5SushiBrosUITests" */;
+			buildPhases = (
+				FA4CEF211CB32EB000B6C4CD /* Sources */,
+				FA4CEF221CB32EB000B6C4CD /* Frameworks */,
+				FA4CEF231CB32EB000B6C4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA4CEF271CB32EB100B6C4CD /* PBXTargetDependency */,
+			);
+			name = 5SushiBrosUITests;
+			productName = 5SushiBrosUITests;
+			productReference = FA4CEF251CB32EB100B6C4CD /* 5SushiBrosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA4CEEFB1CB32EAF00B6C4CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sneakywolf;
+				TargetAttributes = {
+					FA4CEF021CB32EAF00B6C4CD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3TWQEU439T;
+					};
+					FA4CEF191CB32EB000B6C4CD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3TWQEU439T;
+						TestTargetID = FA4CEF021CB32EAF00B6C4CD;
+					};
+					FA4CEF241CB32EB000B6C4CD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 3TWQEU439T;
+						TestTargetID = FA4CEF021CB32EAF00B6C4CD;
+					};
+				};
+			};
+			buildConfigurationList = FA4CEEFE1CB32EAF00B6C4CD /* Build configuration list for PBXProject "5SushiBros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA4CEEFA1CB32EAF00B6C4CD;
+			productRefGroup = FA4CEF041CB32EAF00B6C4CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4CEF021CB32EAF00B6C4CD /* 5SushiBros */,
+				FA4CEF191CB32EB000B6C4CD /* 5SushiBrosTests */,
+				FA4CEF241CB32EB000B6C4CD /* 5SushiBrosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA4CEF011CB32EAF00B6C4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4CEF141CB32EB000B6C4CD /* LaunchScreen.storyboard in Resources */,
+				FA4CEF111CB32EB000B6C4CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4CEF181CB32EB000B6C4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4CEF231CB32EB000B6C4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4CEEFF1CB32EAF00B6C4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0BF88E1CBEB34200945C62 /* OrderCompleteViewController.swift in Sources */,
+				FA0BF88A1CBEA8AD00945C62 /* SushiTabBarController.swift in Sources */,
+				FA0BF8921CBEB6B200945C62 /* SushiMenu.swift in Sources */,
+				FA4CEF091CB32EB000B6C4CD /* MenuViewController.swift in Sources */,
+				FA0BF88C1CBEB0A900945C62 /* VerifyOrderViewController.swift in Sources */,
+				FA4CEF381CB3304700B6C4CD /* MenuItemCell.swift in Sources */,
+				FA4CEF071CB32EB000B6C4CD /* AppDelegate.swift in Sources */,
+				FA0BF8981CBFF71A00945C62 /* Order.swift in Sources */,
+				FA80B94D1CC581A800FECFBB /* MenuItemDescriptionCell.swift in Sources */,
+				FA4CEF0F1CB32EB000B6C4CD /* _SushiBros.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4CEF161CB32EB000B6C4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4CEF1F1CB32EB000B6C4CD /* _SushiBrosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4CEF211CB32EB000B6C4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4CEF2A1CB32EB100B6C4CD /* _SushiBrosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA4CEF1C1CB32EB000B6C4CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4CEF021CB32EAF00B6C4CD /* 5SushiBros */;
+			targetProxy = FA4CEF1B1CB32EB000B6C4CD /* PBXContainerItemProxy */;
+		};
+		FA4CEF271CB32EB100B6C4CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA4CEF021CB32EAF00B6C4CD /* 5SushiBros */;
+			targetProxy = FA4CEF261CB32EB100B6C4CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA4CEF121CB32EB000B6C4CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA4CEF131CB32EB000B6C4CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA4CEF2C1CB32EB100B6C4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA4CEF2D1CB32EB100B6C4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA4CEF2F1CB32EB100B6C4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 5SushiBros/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sneakywolf.5SushiBros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA4CEF301CB32EB100B6C4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 5SushiBros/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sneakywolf.5SushiBros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA4CEF321CB32EB100B6C4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 5SushiBrosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sneakywolf.-SushiBrosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5SushiBros.app/5SushiBros";
+			};
+			name = Debug;
+		};
+		FA4CEF331CB32EB100B6C4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 5SushiBrosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sneakywolf.-SushiBrosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/5SushiBros.app/5SushiBros";
+			};
+			name = Release;
+		};
+		FA4CEF351CB32EB100B6C4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 5SushiBrosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sneakywolf.-SushiBrosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 5SushiBros;
+			};
+			name = Debug;
+		};
+		FA4CEF361CB32EB100B6C4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = 5SushiBrosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sneakywolf.-SushiBrosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = 5SushiBros;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4CEEFE1CB32EAF00B6C4CD /* Build configuration list for PBXProject "5SushiBros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4CEF2C1CB32EB100B6C4CD /* Debug */,
+				FA4CEF2D1CB32EB100B6C4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4CEF2E1CB32EB100B6C4CD /* Build configuration list for PBXNativeTarget "5SushiBros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4CEF2F1CB32EB100B6C4CD /* Debug */,
+				FA4CEF301CB32EB100B6C4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4CEF311CB32EB100B6C4CD /* Build configuration list for PBXNativeTarget "5SushiBrosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4CEF321CB32EB100B6C4CD /* Debug */,
+				FA4CEF331CB32EB100B6C4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4CEF341CB32EB100B6C4CD /* Build configuration list for PBXNativeTarget "5SushiBrosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4CEF351CB32EB100B6C4CD /* Debug */,
+				FA4CEF361CB32EB100B6C4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA4CEF0D1CB32EB000B6C4CD /* _SushiBros.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA4CEF0E1CB32EB000B6C4CD /* _SushiBros.xcdatamodel */,
+			);
+			currentVersion = FA4CEF0E1CB32EB000B6C4CD /* _SushiBros.xcdatamodel */;
+			path = _SushiBros.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA4CEEFB1CB32EAF00B6C4CD /* Project object */;
+}
